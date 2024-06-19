@@ -1,4 +1,4 @@
-import { commonTerms, getAllCollectionDocs } from "@p0tion/actions"
+import { commonTerms, getAllCollectionDocs } from "@ethstorage-org/actions"
 import { showError } from "../lib/errors.js"
 import { bootstrapCommandExecutionAndServices } from "../lib/services.js"
 

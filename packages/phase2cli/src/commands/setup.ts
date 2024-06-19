@@ -36,7 +36,7 @@ import {
     setupCeremony,
     parseCeremonyFile,
     CircuitContributionVerificationMechanism
-} from "@p0tion/actions"
+} from "@ethstorage-org/actions"
 import { customSpinner, simpleLoader, sleep, terminate } from "../lib/utils.js"
 import {
     promptCeremonyInputData,

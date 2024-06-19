@@ -1,4 +1,4 @@
-import { commonTerms } from "@p0tion/actions"
+import { commonTerms } from "@ethstorage-org/actions"
 import Conf from "conf"
 import { dirname } from "path"
 import { readFileSync } from "fs"

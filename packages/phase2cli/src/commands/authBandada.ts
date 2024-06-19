@@ -1,6 +1,6 @@
 import { Identity } from "@semaphore-protocol/identity"
 
-import { commonTerms } from "@p0tion/actions"
+import { commonTerms } from "@ethstorage-org/actions"
 import { httpsCallable } from "firebase/functions"
 import { groth16 } from "snarkjs"
 import { getAuth, signInWithCustomToken } from "firebase/auth"

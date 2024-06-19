@@ -14,7 +14,7 @@ import {
     CircuitContributionVerificationMechanism,
     vmConfigurationTypes,
     DiskTypeForVM
-} from "@p0tion/actions"
+} from "@ethstorage-org/actions"
 import theme from "./theme.js"
 import { COMMAND_ERRORS, showError } from "./errors.js"
 
