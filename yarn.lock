@@ -4718,9 +4718,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@p0tion/actions@^1.2.0, @p0tion/actions@workspace:packages/actions":
+"@ethstorage-org/actions@^1.2.0, @ethstorage-org/actions@workspace:packages/actions":
   version: 0.0.0-use.local
-  resolution: "@p0tion/actions@workspace:packages/actions"
+  resolution: "@ethstorage-org/actions@workspace:packages/actions"
   dependencies:
     "@adobe/node-fetch-retry": ^2.2.0
     "@aws-sdk/client-ec2": ^3.358.0
@@ -4757,9 +4757,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@p0tion/backend@workspace:packages/backend":
+"@ethstorage-org/backend@workspace:packages/backend":
   version: 0.0.0-use.local
-  resolution: "@p0tion/backend@workspace:packages/backend"
+  resolution: "@ethstorage-org/backend@workspace:packages/backend"
   dependencies:
     "@adobe/node-fetch-retry": ^2.2.0
     "@aws-sdk/client-ec2": ^3.357.0
@@ -4769,7 +4769,7 @@ __metadata:
     "@aws-sdk/s3-request-presigner": ^3.329.0
     "@bandada/api-sdk": ^1.0.0-beta.1
     "@firebase/rules-unit-testing": ^2.0.7
-    "@p0tion/actions": ^1.2.0
+    "@ethstorage-org/actions": ^1.2.0
     "@types/rollup-plugin-auto-external": ^2.0.2
     "@types/uuid": ^9.0.1
     blakejs: ^1.2.1
@@ -4794,9 +4794,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@p0tion/phase2cli@workspace:packages/phase2cli":
+"@ethstorage-org/phase2cli@workspace:packages/phase2cli":
   version: 0.0.0-use.local
-  resolution: "@p0tion/phase2cli@workspace:packages/phase2cli"
+  resolution: "@ethstorage-org/phase2cli@workspace:packages/phase2cli"
   dependencies:
     "@adobe/node-fetch-retry": ^2.2.0
     "@aws-sdk/client-s3": ^3.329.0
@@ -4804,7 +4804,7 @@ __metadata:
     "@octokit/auth-oauth-app": ^5.0.5
     "@octokit/auth-oauth-device": ^4.0.4
     "@octokit/request": ^6.2.3
-    "@p0tion/actions": ^1.2.0
+    "@ethstorage-org/actions": ^1.2.0
     "@semaphore-protocol/identity": ^3.15.1
     "@types/clear": ^0.1.2
     "@types/cli-progress": ^3.11.0

@@ -6,17 +6,17 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/privacy-scaling-explorations/p0tion">
+    <a href="https://github.com/ethstorage/p0tion">
         <img src="https://img.shields.io/badge/project-p0tion-blue.svg?style=flat-square">
     </a>
-    <a href="https://github.com/privacy-scaling-explorations/p0tion/blob/main/LICENSE">
+    <a href="https://github.com/ethstorage/p0tion/blob/main/LICENSE">
         <img alt="Github License" src="https://img.shields.io/github/license/privacy-scaling-explorations/p0tion.svg?style=flat-square">
     </a>
-    <a href="https://www.npmjs.com/package/@p0tion/actions">
-        <img alt="NPM Version" src="https://img.shields.io/npm/v/@p0tion/actions?style=flat-square" />
+    <a href="https://www.npmjs.com/package/@ethstorage-org/actions">
+        <img alt="NPM Version" src="https://img.shields.io/npm/v/@ethstorage-org/actions?style=flat-square" />
     </a>
-    <a href="https://npmjs.org/package/@p0tion/actions">
-        <img alt="Downloads" src="https://img.shields.io/npm/dm/@p0tion/actions.svg?style=flat-square" />
+    <a href="https://npmjs.org/package/@ethstorage-org/actions">
+        <img alt="Downloads" src="https://img.shields.io/npm/dm/@ethstorage-org/actions.svg?style=flat-square" />
     </a>
     <a href="https://eslint.org/">
         <img alt="Linter" src="https://img.shields.io/badge/linter-eslint-8080f2?style=flat-square&logo=eslint" />
@@ -28,11 +28,11 @@
 
 <div align="center">
     <h4>
-        <a href="https://github.com/privacy-scaling-explorations/p0tion/blob/main/CONTRIBUTING.md">
+        <a href="https://github.com/ethstorage/p0tion/blob/main/CONTRIBUTING.md">
             👥 Contributing
         </a>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <a href="https://github.com/privacy-scaling-explorations/p0tion/blob/main/CODE_OF_CONDUCT.md">
+        <a href="https://github.com/ethstorage/p0tion/blob/main/CODE_OF_CONDUCT.md">
             🤝 Code of conduct
         </a>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
@@ -51,16 +51,16 @@ To integrate these features, you only need to install the package and import met
 
 ### NPM or Yarn
 
-Install the `@p0tion/actions` package with npm
+Install the `@ethstorage-org/actions` package with npm
 
 ```bash
-npm i @p0tion/actions
+npm i @ethstorage-org/actions
 ```
 
 or yarn
 
 ```bash
-yarn add @p0tion/actions
+yarn add @ethstorage-org/actions
 ```
 
 ## 📜 Usage

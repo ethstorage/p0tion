@@ -16,7 +16,7 @@ const { name } = JSON.parse(
 /**
  * Local Storage.
  * @dev The CLI implementation use the Conf package to create a local storage
- * in the user device (`.config/@p0tion/phase2cli-nodejs/config.json` path) to store the access token.
+ * in the user device (`.config/@ethstorage-org/phase2cli-nodejs/config.json` path) to store the access token.
  */
 const config = new Conf({
     projectName: name,

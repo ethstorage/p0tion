@@ -25,7 +25,7 @@ import {
     CeremonyState,
     finalContributionIndex,
     CircuitDocument
-} from "@p0tion/actions"
+} from "@ethstorage-org/actions"
 import fetch from "@adobe/node-fetch-retry"
 import path from "path"
 import os from "os"

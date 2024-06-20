@@ -7,7 +7,7 @@ To release a new version of `p0tion`, the following steps can be taken:
 2. Clone `p0tion`:
 
 ```
-git clone https://github.com/privacy-scaling-explorations/p0tion.git
+git clone https://github.com/ethstorage/p0tion.git
 ```
 
 3. Install required dependencies:
@@ -57,6 +57,6 @@ Once the tag is pushed, GitHub Actions will automatically publish the packages t
 
 [1]: The following packages will be published on npm.js:
 
--   @p0tion/actions
--   @p0tion/backend
--   @p0tion/phase2cli
+-   @ethstorage-org/actions
+-   @ethstorage-org/backend
+-   @ethstorage-org/phase2cli

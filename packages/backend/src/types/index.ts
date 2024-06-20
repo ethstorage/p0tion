@@ -1,4 +1,4 @@
-import { CeremonyInputData, CircuitDocument, ETagWithPartNumber } from "@p0tion/actions"
+import { CeremonyInputData, CircuitDocument, ETagWithPartNumber } from "@ethstorage-org/actions"
 import type { Groth16Proof, PublicSignals } from "snarkjs"
 
 /**
