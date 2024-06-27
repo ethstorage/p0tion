@@ -1,6 +1,6 @@
 {
   "projects": {
     "dev": "demo-p0tion",
-    "prod": "trusted-setup-demo"
+    "prod": "ethstorage-trusted-setup"
   }
 }
