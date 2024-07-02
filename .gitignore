@@ -25,6 +25,13 @@ coverage/
 docs/*
 !docs/CNAME
 !docs/index.html
-
+!docs/verification.md
+!docs/contribution.md
+!docs/contribute0.png
+!docs/contribute1.png
+!docs/auth0.png
+!docs/auth1.png
+!docs/clean.png
+!docs/logout.png
 
 *.env
