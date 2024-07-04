@@ -38,7 +38,7 @@ jobs:
           sed -i -e 's/"@p0tion\/actions": "[^"]*"/"@devtion\/actions": "latest"/g' ./packages/phase2cli/package.json
 
           # Update package names
-          sed -i -e 's/"name": "@p0tion\/phase2cli"/"name": "@devtion\/devcli"/g' ./packages/phase2cli/package.json
+          sed -i -e 's/"name": "@ethstorage-org\/phase2cli"/"name": "@devtion\/devcli"/g' ./packages/phase2cli/package.json
           sed -i -e 's/"name": "@p0tion\/backend"/"name": "@devtion\/backend"/g' ./packages/backend/package.json
           sed -i -e 's/"name": "@p0tion\/actions"/"name": "@devtion\/actions"/g' ./packages/actions/package.json
 

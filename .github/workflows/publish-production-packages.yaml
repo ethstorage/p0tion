@@ -1,4 +1,4 @@
-name: Publish @p0tion
+name: Publish @ethstorage-org
 
 on:
   push:

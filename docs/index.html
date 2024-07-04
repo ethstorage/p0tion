@@ -48,7 +48,7 @@
                     <a
                         style="margin-right: 15px; text-decoration: none"
                         target="_blank"
-                        href="https://github.com/privacy-scaling-explorations/p0tion"
+                        href="https://github.com/ethstorage/p0tion"
                     >
                         <i class="fa fa-github" style="font-size: 24px; color: #000"></i>
                     </a>
@@ -57,7 +57,7 @@
         </footer>
     </body>
     <script>
-        const url = "https://api.github.com/repos/privacy-scaling-explorations/p0tion/contents?ref=gh-pages"
+        const url = "https://api.github.com/repos/ethstorage/p0tion/contents?ref=gh-pages"
 
         function insertLinks(packages) {
             const [element] = window.document.getElementsByTagName("ul")
@@ -65,14 +65,14 @@
 
             for (const package of packages) {
                 html += `<li style="display: flex; align-items: center; margin-bottom: 8px">
-            <a style="margin-right: 15px" target="_blank" href="https://github.com/privacy-scaling-explorations/p0tion/tree/main/packages/${package}">
+            <a style="margin-right: 15px" target="_blank" href="https://github.com/ethstorage/p0tion/tree/main/packages/${package}">
               <i class="fa fa-github" style="font-size: 24px; color: #000"></i>
             </a>
             <a style="color: #000; text-decoration: none; font-size: 16px"
               onmouseover="this.style.color='#404A4E';"
               onmouseout="this.style.color='#000';"
-              target="_blank" href="https://privacy-scaling-explorations.github.io/p0tion/${package}">
-                @privacy-scaling-explorations/${package} >
+              target="_blank" href="https://ethstorage.github.io/p0tion/${package}">
+                @ethstorage-org/${package} >
             </a></li>`
             }
 
