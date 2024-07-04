@@ -806,7 +806,7 @@ export const handleStartOrResumeContribution = async (
             process.stdout.write(
                 `\n${theme.symbols.error} ${theme.text.bold(
                     "Unfortunately there was an error with the contribution verification. Please restart phase2cli and try again. If the problem persists, please contact the ceremony coordinator."
-                ) time: ${Date()}; Error: ${error.toString()}; \n`
+                )} time: ${Date()}; Error: ${error.toString()}; \n`
             )
         }
     }
