@@ -1,7 +1,7 @@
 {
     "testPathIgnorePatterns": [".d.ts", ".js", "packages/actions/test/unit/contract.test.ts"],
     "moduleNameMapper": {
-        "@ethstorage-org/(.*)$": "<rootDir>/packages/$1"
+        "@p0tion/(.*)$": "<rootDir>/packages/$1"
     },
     "modulePaths": ["<rootDir>"],
     "testTimeout": 100000000,

@@ -19,7 +19,7 @@ import {
     permanentlyStoreCurrentContributionTimeAndHash,
     progressToNextContributionStep,
     verifyContribution
-} from "@ethstorage-org/actions"
+} from "@p0tion/actions"
 import { Presets, SingleBar } from "cli-progress"
 import dotenv from "dotenv"
 import { GithubAuthProvider, OAuthCredential } from "firebase/auth"
@@ -806,7 +806,7 @@ export const handleStartOrResumeContribution = async (
             process.stdout.write(
                 `\n${theme.symbols.error} ${theme.text.bold(
                     "Unfortunately there was an error with the contribution verification. Please restart phase2cli and try again. If the problem persists, please contact the ceremony coordinator."
-                )} time: ${Date()}; Error: ${error.toString()}; \n`
+                )}\n`
             )
         }
     }

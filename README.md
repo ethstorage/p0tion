@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-    <a alt="Project p0tion" href="https://github.com/ethstorage/p0tion" target="_blank">
+    <a alt="Project p0tion" href="https://github.com/privacy-scaling-explorations/p0tion" target="_blank">
         <img src="https://img.shields.io/badge/project-p0tion-blue.svg?style=flat-square">
     </a>
     <a href="/LICENSE">
         <img alt="GitHub License" src="https://img.shields.io/github/license/privacy-scaling-explorations/p0tion?style=flat-square">
     </a>
-    <a href="https://github.com/ethstorage/p0tion/actions/workflows/test-ci-prod.yaml">
+    <a href="https://github.com/privacy-scaling-explorations/p0tion/actions/workflows/test-ci-prod.yaml">
         <img alt="GitHub Workflow Test CI Prod" src="https://img.shields.io/github/actions/workflow/status/privacy-scaling-explorations/p0tion/test-ci-prod.yaml?branch=main&label=test&style=flat-square&logo=github">
     </a>
     <a href='https://coveralls.io/github/privacy-scaling-explorations/p0tion?branch=main'>
@@ -45,7 +45,7 @@
             🤝 Code of conduct
         </a>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <a href="https://github.com/ethstorage/p0tion/contribute">
+        <a href="https://github.com/privacy-scaling-explorations/p0tion/contribute">
             🔎 Issues
         </a>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
@@ -75,38 +75,38 @@ Our design philosophy ensures that p0tion stands as the optimal choice for runni
        <tr>
             <td>
                 <a href="/packages/actions">
-                    @ethstorage-org/actions
+                    @p0tion/actions
                 </a>
             </td>
             <td>
                 <!-- NPM version -->
-                <a href="https://npmjs.org/package/@ethstorage-org/actions">
-                    <img src="https://img.shields.io/npm/v/@ethstorage-org/actions.svg?style=flat-square" alt="NPM version" />
+                <a href="https://npmjs.org/package/@p0tion/actions">
+                    <img src="https://img.shields.io/npm/v/@p0tion/actions.svg?style=flat-square" alt="NPM version" />
                 </a>
             </td>
             <td>
                 <!-- Downloads -->
-                <a href="https://npmjs.org/package/@ethstorage-org/actions">
-                    <img src="https://img.shields.io/npm/dm/@ethstorage-org/actions.svg?style=flat-square" alt="Downloads" />
+                <a href="https://npmjs.org/package/@p0tion/actions">
+                    <img src="https://img.shields.io/npm/dm/@p0tion/actions.svg?style=flat-square" alt="Downloads" />
                 </a>
             </td>
         </tr>
        <tr>
             <td>
                 <a href="/packages/backend">
-                    @ethstorage-org/backend
+                    @p0tion/backend
                 </a>
             </td>
             <td>
                 <!-- NPM version -->
-                <a href="https://npmjs.org/package/@ethstorage-org/backend">
-                    <img src="https://img.shields.io/npm/v/@ethstorage-org/backend.svg?style=flat-square" alt="NPM version" />
+                <a href="https://npmjs.org/package/@p0tion/backend">
+                    <img src="https://img.shields.io/npm/v/@p0tion/backend.svg?style=flat-square" alt="NPM version" />
                 </a>
             </td>
             <td>
                 <!-- Downloads -->
-                <a href="https://npmjs.org/package/@ethstorage-org/backend">
-                    <img src="https://img.shields.io/npm/dm/@ethstorage-org/backend.svg?style=flat-square" alt="Downloads" />
+                <a href="https://npmjs.org/package/@p0tion/backend">
+                    <img src="https://img.shields.io/npm/dm/@p0tion/backend.svg?style=flat-square" alt="Downloads" />
                 </a>
             </td>
         </tr>
@@ -237,4 +237,4 @@ The output will be placed on the `docs` folder. -->
 
 ## License
 
-This repository is released under the [MIT](https://github.com/ethstorage/p0tion/blob/main/LICENSE) License.
+This repository is released under the [MIT](https://github.com/privacy-scaling-explorations/p0tion/blob/main/LICENSE) License.

@@ -316,8 +316,8 @@ export const verifyContribution = async (
      * @dev Force a race condition to fix #57.
      * TL;DR if the cloud function does not return despite having finished its execution, we use
      * a listener on the circuit, we check and retrieve the info about the correct execution and
-     * return it manually. In other cases, it will be the function that returns either a timeout 
-     * in case it remains in execution for too long.
+     * return it manually. In other cases, it will be the function that returns either a timeout in case it
+     * remains in execution for too long.
      */
     await Promise.race([
         cf({

@@ -7,7 +7,7 @@ import {
     getOpenedCeremonies,
     isCoordinator,
     convertToDoubleDigits
-} from "@ethstorage-org/actions"
+} from "@p0tion/actions"
 import { Firestore } from "firebase/firestore"
 import logSymbols from "log-symbols"
 import readline from "readline"

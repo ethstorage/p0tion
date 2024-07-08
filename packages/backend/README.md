@@ -6,17 +6,17 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/ethstorage/p0tion">
+    <a href="https://github.com/privacy-scaling-explorations/p0tion">
         <img src="https://img.shields.io/badge/project-p0tion-blue.svg?style=flat-square">
     </a>
-    <a href="https://github.com/ethstorage/p0tion/blob/main/LICENSE">
+    <a href="https://github.com/privacy-scaling-explorations/p0tion/blob/main/LICENSE">
         <img alt="Github License" src="https://img.shields.io/github/license/privacy-scaling-explorations/p0tion.svg?style=flat-square">
     </a>
-    <a href="https://www.npmjs.com/package/@ethstorage-org/backend">
-        <img alt="NPM Version" src="https://img.shields.io/npm/v/@ethstorage-org/backend?style=flat-square" />
+    <a href="https://www.npmjs.com/package/@p0tion/backend">
+        <img alt="NPM Version" src="https://img.shields.io/npm/v/@p0tion/backend?style=flat-square" />
     </a>
-    <a href="https://npmjs.org/package/@ethstorage-org/backend">
-        <img alt="Downloads" src="https://img.shields.io/npm/dm/@ethstorage-org/backend.svg?style=flat-square" />
+    <a href="https://npmjs.org/package/@p0tion/backend">
+        <img alt="Downloads" src="https://img.shields.io/npm/dm/@p0tion/backend.svg?style=flat-square" />
     </a>
     <a href="https://eslint.org/">
         <img alt="Linter" src="https://img.shields.io/badge/linter-eslint-8080f2?style=flat-square&logo=eslint" />
@@ -28,11 +28,11 @@
 
 <div align="center">
     <h4>
-        <a href="https://github.com/ethstorage/p0tion/blob/main/CONTRIBUTING.md">
+        <a href="https://github.com/privacy-scaling-explorations/p0tion/blob/main/CONTRIBUTING.md">
             👥 Contributing
         </a>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <a href="https://github.com/ethstorage/p0tion/blob/main/CODE_OF_CONDUCT.md">
+        <a href="https://github.com/privacy-scaling-explorations/p0tion/blob/main/CODE_OF_CONDUCT.md">
             🤝 Code of conduct
         </a>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
@@ -47,7 +47,7 @@
 
 Launching the ready-to-run customized scripts everyone could handle whatever is needed to accomplish the users authentication, ceremony setup, coordination and finalization. You could count on the combination of services provided by the far most popular cloud solutions in the market, as AWS for S3 Storage and GCP Firebase for Authentication, Firestore DB and, Cloud Functions services.
 
-![Components Diagram]("https://github.com/ethstorage/p0tion/blob/main/packages/backend/assets/components.png")
+![Components Diagram]("https://github.com/privacy-scaling-explorations/p0tion/blob/main/packages/backend/assets/components.png")
 
 ## 🛠 Installation
 
@@ -56,7 +56,7 @@ Launching the ready-to-run customized scripts everyone could handle whatever is 
 -   Node.js version 16.0 or higher.
 -   Yarn version 3.5.0 or higher.
 -   A Firebase Application w/ active billing (Blaze Plan) in order to support Cloud Functions deployment.
--   Follow the [Installation](https://github.com/ethstorage/p0tion/blob/main/README.md#installation) and [Usage](https://github.com/ethstorage/p0tion/blob/main/README.md#usage) guide.
+-   Follow the [Installation](https://github.com/privacy-scaling-explorations/p0tion/blob/main/README.md#installation) and [Usage](https://github.com/privacy-scaling-explorations/p0tion/blob/main/README.md#usage) guide.
 -   Generate and store a configuration file with your service account's credentials as stated in this [documentation](https://firebase.google.com/docs/admin/setup#set-up-project-and-service-account) inside the `packages/backend/serviceAccountKey.json` file.
 -   Rename the `.firebaserc` production project alias with your Firebase project name.
 
@@ -108,8 +108,8 @@ yarn firebase:init
 2. Setup the `awscli` ([docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)) and add the keys for this user.
 3. Install `terraform` ([docs](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli))
 4. Decide on an AWS region (by default this is **us-east-1**) - if you want to change you will need to do the following:
-    1. update **aws/lambda/index.mjs** ([exact line](https://github.com/ethstorage/p0tion/blob/dev/packages/backend/aws/lambda/index.mjs#L3)) to the new region
-    2. update **main.tf** ([exact line](https://github.com/ethstorage/p0tion/blob/dev/packages/backend/aws/main.tf#L2)) to the new region
+    1. update **aws/lambda/index.mjs** ([exact line](https://github.com/privacy-scaling-explorations/p0tion/blob/dev/packages/backend/aws/lambda/index.mjs#L3)) to the new region
+    2. update **main.tf** ([exact line](https://github.com/privacy-scaling-explorations/p0tion/blob/dev/packages/backend/aws/main.tf#L2)) to the new region
 5. zip the Lambda folder:
     1. `cd lambda`
     2. `zip -r ../lambda.zip .`

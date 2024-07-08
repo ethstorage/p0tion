@@ -8,7 +8,7 @@ import {
     ParticipantContributionStep,
     getParticipantsCollectionPath,
     commonTerms
-} from "@ethstorage-org/actions"
+} from "@p0tion/actions"
 import { FieldValue } from "firebase-admin/firestore"
 import {
     PermanentlyStoreCurrentContributionTimeAndHash,

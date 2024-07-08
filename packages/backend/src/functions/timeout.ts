@@ -9,7 +9,7 @@ import {
     ParticipantStatus,
     getTimeoutsCollectionPath,
     commonTerms
-} from "@ethstorage-org/actions"
+} from "@p0tion/actions"
 import {
     getCeremonyCircuits,
     getCurrentServerTimestampInMillis,

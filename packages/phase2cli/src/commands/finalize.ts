@@ -22,7 +22,7 @@ import {
     exportVerifierContract,
     FirebaseDocumentInfo,
     exportVkey
-} from "@ethstorage-org/actions"
+} from "@p0tion/actions"
 import { Functions } from "firebase/functions"
 import { Firestore } from "firebase/firestore"
 import { dirname } from "path"

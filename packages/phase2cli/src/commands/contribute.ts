@@ -22,7 +22,7 @@ import {
     generateValidContributionsAttestation,
     commonTerms,
     convertToDoubleDigits
-} from "@ethstorage-org/actions"
+} from "@p0tion/actions"
 import { DocumentSnapshot, DocumentData, Firestore, onSnapshot, Timestamp } from "firebase/firestore"
 import { Functions } from "firebase/functions"
 import open from "open"

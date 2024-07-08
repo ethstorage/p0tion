@@ -57,6 +57,6 @@ Once the tag is pushed, GitHub Actions will automatically publish the packages t
 
 [1]: The following packages will be published on npm.js:
 
--   @ethstorage-org/actions
--   @ethstorage-org/backend
+-   @p0tion/actions
+-   @p0tion/backend
 -   @ethstorage-org/phase2cli

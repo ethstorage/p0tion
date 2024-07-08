@@ -20,7 +20,7 @@ import {
     ParticipantContributionStep,
     formatZkeyIndex,
     getZkeyStorageFilePath
-} from "@ethstorage-org/actions"
+} from "@p0tion/actions"
 import { getCeremonyCircuits, getDocumentById } from "../lib/utils"
 import { COMMON_ERRORS, logAndThrowError, makeError, printLog, SPECIFIC_ERRORS } from "../lib/errors"
 import { LogLevel } from "../types/enums"

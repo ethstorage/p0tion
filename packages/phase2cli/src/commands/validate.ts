@@ -1,4 +1,4 @@
-import { parseCeremonyFile } from "@ethstorage-org/actions"
+import { parseCeremonyFile } from "@p0tion/actions"
 import { showError } from "../lib/errors.js"
 
 /**
