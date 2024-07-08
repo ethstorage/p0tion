@@ -1,6 +1,6 @@
 import { EC2Client, DescribeInstancesCommand, StopInstancesCommand, CreateTagsCommand } from "@aws-sdk/client-ec2"
 
-const ec2 = new EC2Client({ region: "us-east-1" })
+const ec2 = new EC2Client({ region: "us-west-2" })
 
 export const handler = async (event) => {
     console.log("Received event:", JSON.stringify(event, null, 2))

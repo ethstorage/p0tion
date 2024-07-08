@@ -328,7 +328,7 @@ export const generateCustomUrlToTweetAboutParticipation = (
               ceremonyName.toLowerCase().includes("ceremony")
                   ? "!"
                   : "%20Phase%202%20Trusted%20Setup%20ceremony!"
-          }%20You%20can%20view%20the%20steps%20to%20contribute%20here:%20https://ceremony.pse.dev%20You%20can%20view%20my%20attestation%20here:%20${gistUrl}%20#Ethereum%20#ZKP`
+          }%20You%20can%20view%20the%20steps%20to%20contribute%20here:%20https://ceremony.ethstorage.io%20You%20can%20view%20my%20attestation%20here:%20${gistUrl}%20#Ethereum%20#ZKP`
 
 /**
  * Return a custom progress bar.
