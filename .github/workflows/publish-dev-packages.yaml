@@ -33,14 +33,8 @@ jobs:
           # Enable recursive globbing
           shopt -s globstar
 
-          # Update package.json dependencies
-          sed -i -e 's/"@p0tion\/actions": "[^"]*"/"@devtion\/actions": "latest"/g' ./packages/backend/package.json
-          sed -i -e 's/"@p0tion\/actions": "[^"]*"/"@devtion\/actions": "latest"/g' ./packages/phase2cli/package.json
-
           # Update package names
           sed -i -e 's/"name": "@ethstorage-org\/phase2cli"/"name": "@devtion\/devcli"/g' ./packages/phase2cli/package.json
-          sed -i -e 's/"name": "@p0tion\/backend"/"name": "@devtion\/backend"/g' ./packages/backend/package.json
-          sed -i -e 's/"name": "@p0tion\/actions"/"name": "@devtion\/actions"/g' ./packages/actions/package.json
 
           # Update string literals in TypeScript and JS files
           find packages -type f -name '*.ts' ! -path '*/node_modules/*' -exec sed -i 's|p0tion/actions|devtion/actions|g' {} +
