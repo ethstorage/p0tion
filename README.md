@@ -113,19 +113,19 @@ Our design philosophy ensures that p0tion stands as the optimal choice for runni
        <tr>
             <td>
                 <a href="/packages/phase2cli">
-                    @ethstorage-org/phase2cli
+                    @ethstorage-io/phase2cli
                 </a>
             </td>
             <td>
                 <!-- NPM version -->
-                <a href="https://npmjs.org/package/@ethstorage-org/phase2cli">
-                    <img src="https://img.shields.io/npm/v/@ethstorage-org/phase2cli.svg?style=flat-square" alt="NPM version" />
+                <a href="https://npmjs.org/package/@ethstorage-io/phase2cli">
+                    <img src="https://img.shields.io/npm/v/@ethstorage-io/phase2cli.svg?style=flat-square" alt="NPM version" />
                 </a>
             </td>
             <td>
                 <!-- Downloads -->
-                <a href="https://npmjs.org/package/@ethstorage-org/phase2cli">
-                    <img src="https://img.shields.io/npm/dm/@ethstorage-org/phase2cli.svg?style=flat-square" alt="Downloads" />
+                <a href="https://npmjs.org/package/@ethstorage-io/phase2cli">
+                    <img src="https://img.shields.io/npm/dm/@ethstorage-io/phase2cli.svg?style=flat-square" alt="Downloads" />
                 </a>
             </td>
         </tr>

@@ -59,4 +59,4 @@ Once the tag is pushed, GitHub Actions will automatically publish the packages t
 
 -   @p0tion/actions
 -   @p0tion/backend
--   @ethstorage-org/phase2cli
+-   @ethstorage-io/phase2cli

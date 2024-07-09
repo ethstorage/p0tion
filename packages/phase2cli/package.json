@@ -1,5 +1,5 @@
 {
-    "name": "@ethstorage-org/phase2cli",
+    "name": "@ethstorage-io/phase2cli",
     "type": "module",
     "version": "1.2.12",
     "description": "All-in-one interactive command-line for interfacing with zkSNARK Phase 2 Trusted Setup ceremonies",

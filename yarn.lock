@@ -4794,9 +4794,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ethstorage-org/phase2cli@workspace:packages/phase2cli":
+"@ethstorage-io/phase2cli@workspace:packages/phase2cli":
   version: 0.0.0-use.local
-  resolution: "@ethstorage-org/phase2cli@workspace:packages/phase2cli"
+  resolution: "@ethstorage-io/phase2cli@workspace:packages/phase2cli"
   dependencies:
     "@adobe/node-fetch-retry": ^2.2.0
     "@aws-sdk/client-s3": ^3.329.0
