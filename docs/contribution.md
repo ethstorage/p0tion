@@ -24,7 +24,7 @@ Setup Ceremonies.
 ### How does a Trusted Setup work?
 Any Trusted Setup ceremony is organized in two subsequent steps: the Phase 1, is universally reusable in any point of 
 contribution as input for any zkSNARKs Phase 2. Briefly, the goal of the Phase 1 is to securely generate zk-SNARK 
-parameters for circuits of up to a huge amount of constraints while the Phase 2, s a circuit-specific ceremony that 
+parameters for circuits of up to a huge amount of constraints while the Phase 2, is a circuit-specific ceremony that 
 must be done for each individual application circuit. Luckily, both phases have a similar workflow. Both assume that 
 there is at least one coordinator and multiple participants taking turns in (generally) sequential rounds. The 
 coordinator generates and publishes a challenge file, which the first participant downloads, generates some entropy 
@@ -84,7 +84,7 @@ cd ~/phase2cli
 2. **Install phase2cli**
 
 ```bash
-npm install @ethstorage-org/phase2cli
+npm install -g @ethstorage-io/phase2cli
 ```
 
 3. **Authenticate with GitHub**
