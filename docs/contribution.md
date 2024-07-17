@@ -41,7 +41,7 @@ for the specific circuit being used.
 1. **A computer**: 
 
 A computer with 8GB or above Space and Ram is recommended. Ideally Mac or Linux, Windows via 
-[WSL](https://learn.microsoft.com/en-us/windows/wsl/install) is Ok;
+[WSL](https://learn.microsoft.com/en-us/windows/wsl/install) is Ok.
 
 2. **A strong internet connection**:
 
@@ -50,7 +50,7 @@ period expires. Please run the ceremony with a strong internet connection, and y
 should be at least 25 Mbps each (preferably 50+ Mbps each). Using a wired (ethernet) connection rather than a 
 wireless (WiFi) connection is also recommended.
 
-3. **A GitHub Accout**:
+3. **A GitHub Account**:
 
 A GitHub account must be a month old with at least one follower, five followings and two repos.
 
@@ -130,7 +130,7 @@ phase2cli logout
     be sure you don’t have your computer set to automatically sleep.
 
 
-## FAQ
+## Frequently Encountered Errors
 **Error: Your contribution took longer than the estimated time**: 
 
 If you meet the following error: 
@@ -140,8 +140,8 @@ If you meet the following error:
 
 **If you disconnect**: While in the queue, you can re-join by running the npx phase2cli contribute command again.
 
-**Authentication errors**: phase2cli authentication can get rejected if you initially failed the GitHub requirements. 
-    Please make sure your GitHub meet our requirement and reset authentication.
+**Authentication errors**: phase2cli authentication can get rejected if you initially failed the GitHub account requirements. 
+    Please make sure your GitHub account meets our requirement and reset authentication.
 
 **Cannot rejoin after timeout**: If you encounter problems and your contribution window times out, you won’t be able to 
     rejoin the queue immediately. Rejoin again in a few hours (and talk to us if it still doesn’t work).

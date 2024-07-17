@@ -30,8 +30,8 @@ circuit using Circom and snarkjs:
 - Install [Circom](https://docs.circom.io/getting-started/installation/) and [snarkjs](https://github.com/iden3/snarkjs).
 - Clone circom code https://github.com/ethstorage/zk-decoder.
 - Download the Powers of Tau (ptau) file we used for our ceremony; we used the Hermez rollup with 2^20 powers of tau, 
-which is linked in [the snarkjs readme](https://github.com/iden3/snarkjs) or available directly 
-[here](https://storage.googleapis.com/zkevm/ptau/powersOfTau28_hez_final_20.ptau).
+which is linked in [the snarkjs readme](https://github.com/privacy-scaling-explorations/perpetualpowersoftau?tab=readme-ov-file#prepared-phase-2-files) 
+or available directly [here](https://pse-trusted-setup-ppot.s3.eu-central-1.amazonaws.com/pot28_0080/ppot_0080_20.ptau).
 - Generate the `r1cs` file from the `circom` source files, by running `circom blob_poseidon_2.circom --r1cs` in the 
 directory `zk-decoder/circom/circuits`. The SHA-256 hash of this file (i.e. as computed by `sha256sum blob_poseidon_2.r1cs`) 
 is `ba17a94a5edcc1d0b0ad10990e0aea4894f080ce571b0db79fb1c3a9c4a74a0d`
