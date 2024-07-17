@@ -107,11 +107,12 @@ Open the link in your browser and log in your GitHub with your authentication co
 phase2cli contribute
 ```
 
-Run the command and select the circom you want to contribute (like _EthStorage circom_);
+Run the command and select the circom you want to contribute (for this ceremony, please select _EthStorage circom_); 
+    You can see the circom description after one ceremony is selected.
 ![contribute0.png](contribute0.png)
 
 Once your contribution is complete, you’ll be invited to share a message on Twitter/X — please do so, or on whatever social media platform(s) you prefer!
-![contribute0.png](contribute0.png)
+![contribute1.png](contribute1.png)
 
 
 5. **Cleanup**
