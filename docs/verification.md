@@ -36,8 +36,8 @@ or available directly [here](https://pse-trusted-setup-ppot.s3.eu-central-1.amaz
 directory `zk-decoder/circom/circuits` (need to run `npm install` for the first time). The SHA-256 hash of this file
 (i.e. as computed by `sha256sum blob_poseidon_2.r1cs`) is `ba17a94a5edcc1d0b0ad10990e0aea4894f080ce571b0db79fb1c3a9c4a74a0d`
 - Use snarkjs to verify that the transcript matches this circuit and powers of tau, by running 
-`snarkjs zkey verify blob_poseidon_2.r1cs ppot_0080_20.ptau blob_poseidon_2_final.zkey`. blob_poseidon_2_final.zkey can be download 
-[here](https://ethstorage-circom-ph2-ceremony.s3.us-west-2.amazonaws.com/circuits/blob_poseidon_2/contributions/blob_poseidon_2_final.zkey).
+`snarkjs zkey verify blob_poseidon_2.r1cs ppot_0080_20.ptau blob_poseidon_2_final.zkey`. `blob_poseidon_2_final.zkey` can be downloaded 
+[here](https://ethstorage-circom-ph2-ceremony.s3.us-west-2.amazonaws.com/circuits/blob_poseidon_2/contributions/blob_poseidon_2_final.zkey). 
 You should see a list of contribution hashes (attestations) followed by the message snarkJS: `ZKey Ok!`.
 
 
