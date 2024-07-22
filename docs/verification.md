@@ -33,10 +33,10 @@ circuit using Circom and snarkjs:
 which is linked in [the snarkjs readme](https://github.com/privacy-scaling-explorations/perpetualpowersoftau?tab=readme-ov-file#prepared-phase-2-files) 
 or available directly [here](https://pse-trusted-setup-ppot.s3.eu-central-1.amazonaws.com/pot28_0080/ppot_0080_20.ptau).
 - Generate the `r1cs` file from the `circom` source files, by running `circom blob_poseidon_2.circom --r1cs` in the 
-directory `zk-decoder/circom/circuits`. The SHA-256 hash of this file (i.e. as computed by `sha256sum blob_poseidon_2.r1cs`) 
-is `ba17a94a5edcc1d0b0ad10990e0aea4894f080ce571b0db79fb1c3a9c4a74a0d`
+directory `zk-decoder/circom/circuits` (need to run `npm install` for the first time). The SHA-256 hash of this file
+(i.e. as computed by `sha256sum blob_poseidon_2.r1cs`) is `ba17a94a5edcc1d0b0ad10990e0aea4894f080ce571b0db79fb1c3a9c4a74a0d`
 - Use snarkjs to verify that the transcript matches this circuit and powers of tau, by running 
-`snarkjs zkey verify blob_poseidon_2.r1cs powersOfTau28_hez_final_20.ptau blob_poseidon_2_final.zkey`. You should see 
+`snarkjs zkey verify blob_poseidon_2.r1cs ppot_0080_20.ptau blob_poseidon_2_final.zkey`. You should see 
 a list of contribution hashes (attestations) followed by the message snarkJS: `ZKey Ok!`.
 
 
