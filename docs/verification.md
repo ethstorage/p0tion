@@ -40,6 +40,8 @@ directory `zk-decoder/circom/circuits` (need to run `npm install` for the first 
 [here](https://ethstorage-circom-ph2-ceremony.s3.us-west-2.amazonaws.com/circuits/blob_poseidon_2/contributions/blob_poseidon_2_final.zkey). 
 You should see a list of contribution hashes (attestations) followed by the message snarkJS: `ZKey Ok!`.
 
+Note: If you meet issue "[ERROR] snarkJS: DOMException [QuotaExceededError]: The requested length exceeds 65,536 bytes" 
+when you run `snarkjs zkey verify ...` command, please update your snarkjs to latest version and rerun it again.
 
 ## Verifying Contributor Attestations Match the Transcript
 
